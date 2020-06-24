@@ -44,6 +44,9 @@ Screenshot
     ```
     GATSBY_FLOTIQ_BASE_URL=https://api.flotiq.com
     GATSBY_FLOTIQ_API_KEY=YOUR FLOTIQ API KEY
+    GATSBY_FLOTIQ_API_URL=https://api.flotiq.com/api/v1/
+    GATSBY_FLOTIQ_API_KEY=YOUR GOOGLE RECAPTCHA KEY
+    GATSBY_FLOTIQ_API_KEY=YOUR GOOGLE RECAPTCHA SECRET KEY
     ```
 
 1.  **Start developing**
