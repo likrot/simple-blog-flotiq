@@ -59,7 +59,7 @@ const CommentForm = props => {
                     return true;
                 }
             }else{
-                console.log('[error on add]', response);
+                console.log('[error on add]');
             }
             return false;
         } catch (error) {

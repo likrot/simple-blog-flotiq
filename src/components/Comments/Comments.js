@@ -22,7 +22,6 @@ const Comments = props => {
     const fetchNewData = useCallback(async () => {
         const response = await fetch(`/.netlify/functions/fetchComment?postId=${postId.replace('blogpost_', '')}`);
         const result = await response.json();
-        console.log(result);
         if(result && result.data && result.data.comments){
             setComments(result.data.comments);
             setResponses(result.data.responses);
