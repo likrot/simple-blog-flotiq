@@ -1,0 +1,145 @@
+form,
+.comment-wrapper {
+    max-width: 800px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+form > div,
+.comment-wrapper > div,
+.comment-wrapper > .response-wrapper > div {
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 2em;
+    margin: 5px;
+}
+form > div > label,
+.comment-wrapper > div > label,
+.comment-wrapper > .response-wrapper > div > label {
+    color: #333;
+    width: 110px;
+    font-size: 1em;
+    line-height: 32px;
+}
+form > div > input,
+.comment-wrapper > div > input,
+form > div > .comment-input,
+.comment-wrapper > div > .comment-input,
+form > div > select,
+.comment-wrapper > div > select,
+form > div > textarea,
+.comment-wrapper > div > textarea,
+form > div > .comment-message,
+.comment-wrapper > div > .comment-message,
+.comment-wrapper > .response-wrapper > div > input,
+.comment-wrapper > .response-wrapper > div > .comment-input,
+.comment-wrapper > .response-wrapper > div > select,
+.comment-wrapper > .response-wrapper > div > textarea,
+.comment-wrapper > .response-wrapper > div > .comment-message {
+    flex: 1;
+    padding: 3px 5px;
+    font-size: 1em;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+form > div > input[type='checkbox'],
+.comment-wrapper > .response-wrapper > div > input[type='checkbox'] {
+    margin-top: 7px;
+}
+form > div > div,
+.comment-wrapper > div > div,
+.comment-wrapper > .response-wrapper > div > div {
+    margin-left: 16px;
+}
+form > div >div > label,
+.comment-wrapper > div >div > label,
+.comment-wrapper > .response-wrapper > div >div > label {
+    display: block;
+}
+form > div >div > label > input,
+.comment-wrapper > div >div > label > input,
+.comment-wrapper > .response-wrapper > div >div > label > input {
+    margin-right: 3px;
+}
+form > div > div > span,
+.comment-wrapper > div > div > span,
+.comment-wrapper > .response-wrapper > div > div > span {
+    line-height: 32px;
+    margin-left: 10px;
+    color: #800;
+    font-weight: bold;
+}
+form > .buttons,
+.comment-wrapper > .buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.message-box {
+    text-align: center;
+}
+button {
+    margin: 0 10px;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: white;
+    background-image: linear-gradient(yellow, rgb(99, 99, 0));
+    border: 1px solid black;
+}
+button:visited {
+    color: black;
+}
+button:hover {
+    background-image: linear-gradient(rgb(99, 99, 0), yellow);
+}
+button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+button[type='submit'] {
+    color: #ffffff;
+    border-color: #d5d5d5;
+}
+button[type='button'] {
+    color: #4f93ce;
+    border-color: #285f8f;
+}
+pre {
+    border: 1px solid #ccc;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.form-input--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+@media screen and (max-width: 768px){
+    form > div,
+    .comment-wrapper > div,
+    .comment-wrapper > .response-wrapper > div  {
+        flex-flow: column nowrap;
+    }
+
+    .hr-line {
+        margin-bottom: 1rem;
+        width: 15.5rem;
+        background-color: white;
+    }
+    .hr-line:last-of-type {
+        margin-bottom: unset;
+        width: unset;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: yellow;
+}
+a {
+    color: white;
+}
+a:hover {
+    box-shadow: yellow 0px 1px 0px 0px;
+}
+h3 > a:hover {
+    box-shadow: yellow 0px 2px 0px 0px!important;
+}
+
+

@@ -1,7 +1,9 @@
 [build]
-  command = "gatsby build"
+  command = "netlify-lambda build src/.netlify/functions && gatsby build"
   publish = "public/"
+  functions = "lambda"
 
 [template.environment]
   GATSBY_FLOTIQ_BASE_URL="https://api.flotiq.com"
   GATSBY_FLOTIQ_API_KEY="YOUR FLOTIQ API KEY"
+  GATSBY_FLOTIQ_API_URL="https://api.flotiq.com/api/v1/"

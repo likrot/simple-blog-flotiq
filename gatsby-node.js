@@ -40,6 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: blogPost,
       context: {
         slug: post.node.slug,
+        postId: post.node.id.replace('blogpost_', ''),
         previous,
         next,
       },
