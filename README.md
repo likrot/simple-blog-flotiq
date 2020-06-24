@@ -83,17 +83,6 @@ Screenshot
     
     ![Managing posts using Flotiq](docs/manage-blogposts.png)
 
-## Deploy
-
-  You can deploy this project to Heroku in 3 minutes:
-
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/flotiq/gatsby-starter-blog)
-  
-  Or to Netlify:
-  
-  [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/flotiq/gatsby-starter-blog)
-
-
 ## Collaborating
 
    If you wish to to talk with us about this project, feel free to hop on our [discord server](https://discord.gg/FwXcHnX).
