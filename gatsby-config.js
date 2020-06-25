@@ -28,7 +28,7 @@ module.exports = {
             "options": {
                 "baseUrl": process.env.GATSBY_FLOTIQ_BASE_URL,
                 "authToken": process.env.GATSBY_FLOTIQ_API_KEY,
-                "forceReload": true,
+                "forceReload": false,
                 "includeTypes": ['blogpost','_media']
             }
         },
